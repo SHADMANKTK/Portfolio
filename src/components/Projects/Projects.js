@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import rider3D from "../../Assets/Projects/chatify.png";
-import csm from "../../Assets/Projects/suicide.png";
-import kungFU from "../../Assets/Projects/suicide.png";
-import pradoParking from "../../Assets/Projects/suicide.png";
-import rampStunt from "../../Assets/Projects/suicide.png";
-import mcr from "../../Assets/Projects/suicide.png";
-import motoMax from "../../Assets/Projects/suicide.png";
+import rider3D from "../../Assets/Projects/Rider.jpg";
+import csm from "../../Assets/Projects/csm.jpg";
+import kungFU from "../../Assets/Projects/Kung FU.jpg";
+import pradoParking from "../../Assets/Projects/prado.jpg";
+import rampStunt from "../../Assets/Projects/rampstunt.jpg";
+import mcr from "../../Assets/Projects/MCR.jpg";
+import motoMax from "../../Assets/Projects/motomax.jpg";
+import offroadJeep from "../../Assets/Projects/offroadjeep.jpg";
 
 
 function Projects() {
@@ -55,6 +56,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={mcr}
+              isBlog={false}
+              title="Mini Car Rush"
+              description="Mini Car Rush is an offline game with a chase racing game style. Chase Racing – The ultimate driving game among free car games.
+
+During this exciting mini car rush, you'll confront breathtaking racing environments and obstacles, and get ready to be challenged by these tracks. This is a fun game full of adventures. Along the way, you'll drive remarkable sports cars with thrilling vibes. Double up your speed by choosing turbo cars with better handling and specs to move flexibly on the car racing tracks. Booster in cars will enhance your experience for more fun in this free car game. This is an endless runner car game with great fun for you"              
+              demoLink="https://play.google.com/store/apps/details?id=com.tb.minicar.rush.racing.drivinggames&hl=en"
+            />
+          </Col>          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={kungFU}
               isBlog={false}
               title="Kung Fu Fighting"
@@ -80,6 +92,16 @@ Gain expertise in the art of fighting games offline 3d with Non-stop action. Ste
               isBlog={false}
               title="GT Car Stunt"
               description="GT car stunt game has very smooth gameplay control that gives you a realistic car driving experience on your mobile. High-quality graphics are used for better car stunts race experiences that every user enjoys a lot playing online on their mobile phone."              
+              demoLink="https://play.google.com/store/apps/details?id=com.car.stunt.driving.cargames.offline.ramp.racing&hl=en"
+            />
+          </Col>          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={offroadJeep}
+              isBlog={false}
+              title="Off Road Jeep Parking"
+              description="Explore the thrill of offroad driving in one of the premier offroad jeep simulator games. Offroad jeep driving game poses a constant challenge, even for seasoned drivers. The key to conquering offroad mountain tracks lies in the possession of a 4X4 Jeep or offroad SUV, bestowing superior control and road grip on the rugged and muddy terrains featured in the free car game. Elevate your jeep driving skills by completing various offroad driving game tasks, including challenging missions such as offroad jeep parking and transporting goods using attached offroad vehicles like tractor trolleys and trucks in this Offroad Jeep game."              
               demoLink="https://play.google.com/store/apps/details?id=com.car.stunt.driving.cargames.offline.ramp.racing&hl=en"
             />
           </Col>          

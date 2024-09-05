@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import CollaborationStack from "./CollaborationStack";
+import SDKsStack from "./SDKsStack";
 
 function About() {
   return (
@@ -45,7 +46,18 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+        <h1 className="project-heading">
+          <strong className="purple">Collaboration Tools</strong> I use
+        </h1>        
+
+        <CollaborationStack />
+
+        <h1 className="project-heading">
+          <strong className="purple">SDK Tools</strong> I am familiar with
+        </h1>        
+
+        <SDKsStack />
+
       </Container>
     </Container>
   );

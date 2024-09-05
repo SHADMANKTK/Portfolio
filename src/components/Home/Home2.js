@@ -32,8 +32,10 @@ function Home2() {
               <i>
                 <b className="purple">Software Technologies and Products like Games and Applications</b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Video Games Development.
+                <span className="purple">
+                  Video Games Development
+              </span> and   <b className="purple">
+                  Web Development.
                 </b>
               </i>
               <br />
@@ -52,10 +54,56 @@ function Home2() {
               </i>
             </p>
           </Col>
+
+        
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+          </Col>
+
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              Professional <span className="purple"> Experience </span>
+            </h1>
+            <p className="home-about-body">
+              Currently Working as <span className="purple">Game Developer</span> with <span className="purple">Terafort</span> for <span className="purple"> 3+ Years</span>
+              <br />
+              <br />
+              - Develop scalable prototypes and 
+mechanics. <br />
+ - Resolving critical issues related to 
+crashes and ANRs resulting in ANR 
+rates below 0.45% and crash rates below 
+1%. <br />
+ 
+ -Proficiently designing game mechanics 
+aligned with project manager's plans, 
+encompassing various genres such as 
+FPS, TPS, and Simulation. 
+<br />
+<br />
+<span className="purple"> SDK </span> Tools I have Used<br />
+- Google Admob [Mediation as well] <br />
+- Applovin [Mediation as well] <br />
+- UnityAds [Mediation as well] <br />
+- Chartboost. <br />
+- Firebase[Database/Analytics/Authentication] <br />
+- Backend APIs hosted on AWS and accessed through Laravel <br />
+              
+              <br />
+              <br />
+              Worked as <span className="purple">System Engineer</span> with <span className="purple">ZMectr SMC Pvt Ltd.</span> for <span className="purple"> 1 Year</span>
+              <br />
+              <br />
+              -Proficiently designing IoT hardware systems aligned with project manager's 
+plans, encompassing various 
+applications such as home automation, 
+wearable devices, and environmental 
+monitoring
+              
+            </p>
           </Col>
         </Row>
         <Row>
