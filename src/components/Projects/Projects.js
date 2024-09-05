@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import rider3D from "../../Assets/Projects/chatify.png";
+import csm from "../../Assets/Projects/suicide.png";
+import kungFU from "../../Assets/Projects/suicide.png";
+import pradoParking from "../../Assets/Projects/suicide.png";
+import rampStunt from "../../Assets/Projects/suicide.png";
+import mcr from "../../Assets/Projects/suicide.png";
+import motoMax from "../../Assets/Projects/suicide.png";
+
 
 function Projects() {
   return (
@@ -23,70 +25,65 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={rider3D}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Rider 3D"
+              description="Highway Bike Racing - In our Bike racing game, we focus on keeping you engaged & entertained so you can unleash your inner speed demon and race like a pro."              
+              demoLink="https://play.google.com/store/apps/details?id=com.ffgames.motoercycle.traffic.racer.bikegames.rider.motobikeracing3d&hl=en"
             />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={motoMax}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Moto Max"
+              description="Get ready for an ultimate adrenaline rush with 'Moto Race Max (MRM). Immerse yourself in the exhilarating world of Moto Race Max where high-speed circuits and sharp turns redefine the essence of the bike racing game."              
+              demoLink="https://play.google.com/store/apps/details?id=com.offline.racing.motorcyclegame.motomax.bikerace.bike.games&hl=en"
             />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={csm}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Commando Shooting Stars"
+              description="Get ready for an adrenaline-pumping experience with an fps commando shooting game. An action-packed fps shooting game that will test your gun shooting skills and marksmanship. Step into the shoes of a highly trained commando shooter and embark on a series of thrilling counter-terrorism missions to infiltrate hostile buildings and areas in real gun shooting war games."              
+              demoLink="https://play.google.com/store/apps/details?id=com.fg.fps.commando.shooting.game.action.games&hl=en"
             />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={kungFU}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+              title="Kung Fu Fighting"
+              description="Master the art of Kung Fu fighting karate games 3d, pave your path to greatness and become the ultimate kung fu karate champion game.
 
+Gain expertise in the art of fighting games offline 3d with Non-stop action. Step into the top new game arena and prove your worth as a Kung Fu fight boxing game champion in one of the best games of martial arts."              
+              demoLink="https://play.google.com/store/apps/details?id=com.gzl.superhero.karatefighting.game&hl=en"
+            />
+          </Col>          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={pradoParking}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Prado Car Parking"
+              description="Amazing car parking missions, multiplayer car driving challenges, and new car games with smooth controls will double up the Prado parking simulator passion. HD graphics, racing cars, and daily achievement rewards will amaze you in offline Prado parking car game."              
+              demoLink="https://play.google.com/store/apps/details?id=com.ghive.jeep.parking.car.free.game.master.apps&hl=en"
             />
-          </Col>
-
+          </Col>          
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={rampStunt}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="GT Car Stunt"
+              description="GT car stunt game has very smooth gameplay control that gives you a realistic car driving experience on your mobile. High-quality graphics are used for better car stunts race experiences that every user enjoys a lot playing online on their mobile phone."              
+              demoLink="https://play.google.com/store/apps/details?id=com.car.stunt.driving.cargames.offline.ramp.racing&hl=en"
             />
-          </Col>
+          </Col>          
+
         </Row>
       </Container>
     </Container>

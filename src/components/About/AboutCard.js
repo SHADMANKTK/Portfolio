@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Shadman Khan Khattak </span>
-            from <span className="purple"> Nowhsera, Pakistan.</span>
+            from <span className="purple"> Nowshera, Pakistan.</span>
             <br />
             I am currently employed as a <span className="purple">Game Developer</span> at <span className="purple">Terafort Pvt Ltd</span>.
             <br />
